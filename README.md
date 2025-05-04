@@ -14,4 +14,6 @@ pip install requests pandas
 # API
 La api a usar se llama REST Countries.
 
-En la cual se pueden encontrar diversos datos, de todos los paises del mundo.
+En la cual se pueden encontrar informacion completa de todos los paises del mundo, tales como: nombre del pais, capital, abreviación, latitud, región, etc.
+
+En este caso usaremos la API para obtener nombre del pais, capital, region, poblacion, area e idiomas y visualizarlos en una tabla de manera mas ordenada
