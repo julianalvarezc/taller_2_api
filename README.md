@@ -13,3 +13,4 @@ pip install requests pandas
 La api a usar se llama REST Countries.
 
 En la cual se pueden encontrar diversos datos, de todos los paises del mundo.
+y tambien
