@@ -10,4 +10,6 @@ pip install nbdev
 pip install requests pandas
 
 # API
-La api a usar 
+La api a usar se llama REST Countries.
+
+En la cual se pueden encontrar diversos datos, de todos los paises del mundo.
