@@ -9,6 +9,3 @@ response = requests.get(url)
 
 #Obtenemos el json de la respuesta
 response.json()
-a = response.json()
-
-print(a)
