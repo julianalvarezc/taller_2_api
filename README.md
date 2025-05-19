@@ -25,7 +25,7 @@ El segundo codigo nos da la informacion completa que está presente en la API pa
 
 Y por ultimo el tercer codigo nos entrega la misma tabla pero con una columna extra en la que se nos da una breve descripcion de la informacion presente en la fila.
 
-# Significado de las columnas numéricas - `paises_numericos.csv`
+# Significado de las columnas numéricas - `csv`
 
 | **Columna**            | **Tipo de dato**     | **Significado** |
 |------------------------|----------------------|------------------|
