@@ -24,3 +24,24 @@ En el notebook podremos encontrar 3 codigos ejecutables, el primero nos entrega 
 El segundo codigo nos da la informacion completa que está presente en la API para el pais Chile.
 
 Y por ultimo el tercer codigo nos entrega la misma tabla pero con una columna extra en la que se nos da una breve descripcion de la informacion presente en la fila.
+
+# Significado de las columnas numéricas - `paises_numericos.csv`
+
+| **Columna**            | **Tipo de dato**     | **Significado** |
+|------------------------|----------------------|------------------|
+| `independent`          | Binario (0/1)        | `1` si el país es independiente, `0` si no lo es o el dato es desconocido. |
+| `unMember`             | Binario (0/1)        | `1` si el país es miembro de la ONU, `0` si no lo es. |
+| `capital_code`         | Categórico (entero)  | Código único asignado a la capital. `"None"` si no tiene capital registrada. |
+| `region_code`          | Categórico (entero)  | Código único para la región geográfica (ej. `Europe` = 1, `Asia` = 2, etc.). |
+| `subregion_code`       | Categórico (entero)  | Código único para la subregión (ej. `Northern Europe`, `South America`). |
+| `language_code`        | Categórico (entero)  | Código numérico para el idioma o combinación de idiomas oficiales. |
+| `latitude`             | Decimal (float)      | Latitud aproximada del país. Positiva = hemisferio norte. |
+| `longitude`            | Decimal (float)      | Longitud aproximada del país. Positiva = hemisferio este. |
+| `landlocked`           | Binario (0/1)        | `1` si el país no tiene salida al mar, `0` si sí tiene. |
+| `area`                 | Decimal (float)      | Área del país en kilómetros cuadrados. |
+| `population`           | Entero               | Población total estimada del país. |
+| `borders_count`        | Entero               | Cantidad de países con los que comparte frontera. |
+| `car_side_code`        | Categórico (entero)  | Código: `1` = "right", `2` = "left", `3` = desconocido. |
+| `timezones_count`      | Entero               | Número de zonas horarias que tiene el país. |
+| `continents_code`      | Categórico (entero)  | Código del continente (ej. `Africa` = 1, `Europe` = 2). |
+| `startOfWeek_code`     | Categórico (entero)  | Día de inicio de semana: `1` = "monday", `2` = "sunday", etc. |
