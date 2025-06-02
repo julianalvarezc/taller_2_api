@@ -1,13 +1,9 @@
 #Importamos la biblioteca
+# src/app.py
+
 import requests
 
-#Definimos la URL a la que queremos hacer peticiones
-url = "https://restcountries.com/v3.1/all"
-
-#Hacemos la peticion y la guardamos en una variable
-response = requests.get(url)
-
-#Obtenemos el json de la respuesta
-api = response.json()
-
-print(api)
+def get_api_data():
+    url = "https://restcountries.com/v3.1/all"
+    response = requests.get(url)
+    return response.json()
